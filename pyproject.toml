@@ -22,3 +22,7 @@ dev = [
     "ruff (>=0.16.4,<0.17.0)",
     "black (>=26.5.1,<27.0.0)"
 ]
+
+# НАСТРОЙКА BLACK ДЛЯ УСТРАНЕНИЯ WARNING
+[tool.black]
+target-version = ['py312']
